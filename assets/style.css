@@ -92,23 +92,35 @@ main{
 
 footer{
    display: flex;
-    height: 100px;
-    background-color: rgb(34, 34, 34);
+   background-color: rgb(34, 34, 34);
 }
 
 
 .icon-footer-start{
-    display: flex;
-    justify-content: center;
-    height: 70px;
+     display: flex;
+     justify-content: flex-start;
+    flex-direction: column;
+    position: relative; 
 }
 
-.arrow-up{
-    height: 25px;
-    padding-right: 15px;
-    margin-top: 25px;
+ .arrow-up{
+    display: flex;
+   
+   height: 20px;
+   position: relative;
+   top: 25px; 
 }
 
 .camera{
-    padding-right: 15px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+}
+h3{
+   color: white;
+}
+.icon-footer-center{
+    display: flex;
+    flex-direction: column;
+    
 }
