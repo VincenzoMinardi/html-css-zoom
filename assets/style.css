@@ -111,7 +111,8 @@ footer{
  .arrow-up{
     height: 20px;
    position: relative;
-   top: 25px; 
+   top: 25px;
+   
 }
 
 .button {
@@ -122,7 +123,8 @@ footer{
 }
 h3{
    color: white;
-   font-size: 13px; 
+   font-size: 13px;
+   width: 150px; 
 }
 .icon-footer-center{
     display: flex;
@@ -130,8 +132,8 @@ h3{
 }
 
 .icon4{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
    
 }
 .button-large{
